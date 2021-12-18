@@ -1,4 +1,4 @@
-# zuzjes.com
+# ondrejsika.com (2021)
 
 ### Run in Development Mode
 - Clone repository
