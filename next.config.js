@@ -1,11 +1,11 @@
 module.exports = {
   exportTrailingSlash: true,
-  exportPathMap: async function(defaultPathMap) {
+  exportPathMap: async function (defaultPathMap) {
     return {
-      '/': { page: '/' }
+      "/": { page: "/" },
     };
-  }
+  },
 };
 
-const withImages = require('next-images')
-module.exports = withImages(module.exports)
+const withImages = require("next-images");
+module.exports = withImages(module.exports);

@@ -41,7 +41,7 @@ const Button = styled.a`
   }
 `;
 Button.defaultProps = {
-  target: "_blank"
+  target: "_blank",
 };
 
 export default () => {

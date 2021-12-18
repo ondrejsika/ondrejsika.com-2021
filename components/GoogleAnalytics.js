@@ -1,4 +1,4 @@
-const GoogleAnalytics = props => (
+const GoogleAnalytics = (props) => (
   <script
     type="text/javascript"
     dangerouslySetInnerHTML={{
@@ -13,7 +13,7 @@ const GoogleAnalytics = props => (
         props.google_analytics_site_id +
         `', 'auto');
     ga('send', 'pageview');
-`
+`,
     }}
   />
 );

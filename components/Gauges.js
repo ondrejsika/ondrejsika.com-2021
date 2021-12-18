@@ -1,4 +1,4 @@
-const Gauges = props => (
+const Gauges = (props) => (
   <script
     type="text/javascript"
     dangerouslySetInnerHTML={{
@@ -18,7 +18,7 @@ const Gauges = props => (
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(t, s);
       })();
-`
+`,
     }}
   />
 );
