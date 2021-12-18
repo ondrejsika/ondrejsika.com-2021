@@ -5,7 +5,7 @@ import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   body {
-    font-size: 1.5em;
+    font-size: 1.35em;
   }
 `;
 const Container = styled.div`
@@ -24,19 +24,19 @@ const Technologies = styled.b`
   font-size: 1.7em;
 `;
 const A = styled.a`
-  color: #088958;
+  color: #131480;
 `;
 const Button = styled.a`
-  border: 2px solid #088958;
+  border: 2px solid #131480;
   padding: 0.15em 0.4em;
   margin: 0.3em 0.6em 0.3em 0;
-  color: #088958;
+  color: #131480;
   text-decoration: none;
   display: inline-block;
   &:hover {
-    border: 2px solid #088958;
+    border: 2px solid #131480;
     padding: 0.15em 0.4em;
-    background-color: #088958;
+    background-color: #131480;
     color: white;
   }
 `;
@@ -49,7 +49,7 @@ export default () => {
     <>
       <GlobalStyle />
       <Head>
-        <title>Zuzka Jeschke - zuzjes.com</title>
+        <title>Ondrej Sika - ondrejsika.com</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
@@ -57,45 +57,42 @@ export default () => {
         />
       </Head>
       <Container>
-        <Header>Zuzka Jeschke</Header>
+        <Header>Ondrej Sika</Header>
         <p>
-          Jsem velký nadšenec do hor, lezení,{" "}
-          <A href="https://www.instagram.com/jsemnela/">Nely</A> (muj pes) a
-          svých <A href="https://www.instagram.com/zuz_kytky/">kytek</A>.
-        </p>
-        <p>
-          Věnuji se <b>frontendu</b>, jednou chci být hustá programátorka. Proto
-          se teď snažím do sebe nasát co nejvíce znalostí a zkušeností. Baví mě
-          dělat věci efektivně a smysluplně. I když jsem trochu introvert, po
-          osmělení se umím bavit, práce v týmu je moje věc!
-        </p>
-        <Technologies>
-          React, Next.js, JS, Now, Git, Gitlab, Bootstrap, Material-UI, Formik,
-          Styled&nbsp;Components
-        </Technologies>
-        <p>
-          <A href="tel:+420608540464">+420 608 540 464</A> (
-          <A href="https://t.me/zuzjes">Telegram</A>)
+          <A href="mailto:ondrej@ondrejsika.com">ondrej@ondrejsika.com</A>
           <br />
-          <A href="mailto:zuz@zuzjes.com">zuz@zuzjes.com</A>
-          <br />
-          <A href="https://zuzj.es/">zuzj.es</A> (rozcestník)
-          <br />
-          <A href="/resume.pdf">CV</A>
+          <A href="tel:+420773452376">+420 773 452 376</A> (
+          <A href="https://t.me/ondrejsika">Telegram</A>)
         </p>
+
         <p className="row">
-          <Button href="https://github.com/zuzjes">Github</Button>
-          <Button href="https://www.linkedin.com/in/zuzjes/">Linkedin</Button>
-          <Button href="https://twitter.com/zuzjes">Twitter</Button>
-          <Button href="https://www.instagram.com/zuzjes/">Instagram</Button>
-          <Button href="https://www.facebook.com/zuzka.jeschke">
-            Facebook
+          <Button href="https://www.instagram.com/ondrejsika/">
+            Instagram
+          </Button>
+          <Button href="https://www.linkedin.com/in/ondrejsika/">
+            Linkedin
+          </Button>
+          <Button href="https://github.com/ondrejsika">Github</Button>
+          <Button href="https://twitter.com/ondrejsika">Twitter</Button>
+          <Button href="https://www.facebook.com/ondrejsika">Facebook</Button>
+          <Button href="https://www.flickr.com/photos/ondrejsika/albums">
+            Flickr
           </Button>
         </p>
+        <p className="row">
+          <Button href="https://sika.io/">Ondrej Sika DevOps (sika.io)</Button>
+          <br />
+          <Button href="https://sikalabs.com">SikaLabs (sikalabs.com)</Button>
+          <br />
+          <Button href="https://trainera.io">Trainera (trainera.io)</Button>
+        </p>
+        <div style={{ position: "fixed", bottom: "10px", right: "10px" }}>
+          <A href="/ondrej">/ondrej</A>
+        </div>
       </Container>
 
-      <Gauges gauges_site_id="5c4c99e1e2780409622de4ab" />
-      <GoogleAnalytics google_analytics_site_id="UA-133283927-1" />
+      <Gauges gauges_site_id="xxx" />
+      <GoogleAnalytics google_analytics_site_id="UA-xxx-1" />
     </>
   );
 };
