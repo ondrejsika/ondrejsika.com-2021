@@ -50,6 +50,7 @@ export default () => {
       <GlobalStyle />
       <Head>
         <title>Ondrej Sika - ondrejsika.com</title>
+        <link rel="shortcut icon" type="image/png"  href="/favicon.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
